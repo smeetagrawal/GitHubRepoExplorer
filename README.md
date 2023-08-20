@@ -27,3 +27,10 @@
 - react-router-dom: A fundamental library for implementing navigation and routing in React applications.
 - prop-types: A type-checking library for ensuring the correctness of props passed to React components.
 - react-feather: An icon library that provides a collection of customizable icons for seamless integration into React projects.
+
+
+# Testing the application
+
+- I have written test cases for testing the Card component and the SearchBox component.
+- Both the test cases are present under `src\components\__tests__` location.
+- To run the test case, run this command - `npm run test`
