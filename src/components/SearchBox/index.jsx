@@ -25,8 +25,6 @@ const SearchBox = (props) => {
     onClear();
   };
 
-  console.log("Search value", searchValue);
-
   return (
     <div className={styles.inputContainer}>
       <div className={styles.inputContainerStart}>{starticon}</div>

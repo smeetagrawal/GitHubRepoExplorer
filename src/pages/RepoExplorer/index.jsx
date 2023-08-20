@@ -82,10 +82,8 @@ const RepoExplorer = () => {
       <div style={{ marginTop: 24 }}>
         {errorMessage ? (
           <>
-            <h4 variant="h4">
-              There is some error while fetching repository data
-            </h4>
-            <p variant="h5">{`Error: ${errorMessage}`}</p>
+            <h4>There is some error while fetching repository data</h4>
+            <p>{`Error: ${errorMessage}`}</p>
           </>
         ) : (
           <div className={styles.cardContainer} onClick={handleCardClick}>
