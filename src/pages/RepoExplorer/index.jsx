@@ -34,10 +34,14 @@ const RepoExplorer = () => {
 
   const handleOnSearch = (value) => {
     setSearch(value);
-    const filteredRepositories = repositories.filter((repo) =>
-      repo.name?.toLowerCase().includes(value?.toLowerCase())
-    );
-    setRepositories(filteredRepositories);
+    if (value) {
+      const filteredRepositories = repositories.filter((repo) =>
+        repo.name?.toLowerCase().includes(value?.toLowerCase())
+      );
+      setRepositories(filteredRepositories);
+    } else {
+      getOrganizationRepositories();
+    }
   };
 
   const optimizedSearch = _.debounce(handleOnSearch, 500);
