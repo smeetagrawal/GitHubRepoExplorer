@@ -6,7 +6,7 @@
 
 - Begin by navigating to the root directory of the project using your terminal.
 - Run the following command to install the necessary dependencies:
-- npm install
+    - npm install
 
 # Configuration
 
@@ -16,17 +16,17 @@
 # Running the Project
 
 - To start the project, execute the following command:
-- npm run start
+    - npm run start
 
 # Additional Information
 
 - During the development of this project, the following libraries were incorporated to enhance productivity:
 
-- axios: A versatile library for making HTTP requests, streamlining communication with servers.
-- lodash: A utility library that optimizes array, string, and object manipulation, saving development time.
-- react-router-dom: A fundamental library for implementing navigation and routing in React applications.
-- prop-types: A type-checking library for ensuring the correctness of props passed to React components.
-- react-feather: An icon library that provides a collection of customizable icons for seamless integration into React projects.
+    - axios: A versatile library for making HTTP requests, streamlining communication with servers.
+    - lodash: A utility library that optimizes array, string, and object manipulation, saving development time.
+    - react-router-dom: A fundamental library for implementing navigation and routing in React applications.
+    - prop-types: A type-checking library for ensuring the correctness of props passed to React components.
+    - react-feather: An icon library that provides a collection of customizable icons for seamless integration into React projects.
 
 
 # Testing the application
