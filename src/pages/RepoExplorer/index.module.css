@@ -1,0 +1,21 @@
+.container {
+  padding: 32px 64px;
+}
+
+.cardContainer {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subHeading {
+  font-size: 12px;
+  font-weight: 500;
+  font-size: 0.75rem;
+}

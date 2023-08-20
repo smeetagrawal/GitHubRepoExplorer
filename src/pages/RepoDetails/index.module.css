@@ -1,0 +1,81 @@
+.container {
+  padding: 32px 64px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.repositoryDetails {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+
+.respositoryInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.repositoryName {
+  margin: 0;
+}
+
+.respositoryDescription {
+  margin: 0;
+  max-width: 50%;
+}
+
+.languagesUsed {
+  margin: 0;
+}
+
+.repositoryImage {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.additionalDetailsInfo {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  padding: 16px 24px;
+  box-shadow: 0 5px 22px 0 rgba(0, 0, 0, 0.06);
+  align-items: center;
+  border-radius: 8;
+}
+
+.card p {
+  margin: 0;
+}
+
+.headerBtn {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+.repoLink {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.repoLink p {
+  margin: 0;
+}
