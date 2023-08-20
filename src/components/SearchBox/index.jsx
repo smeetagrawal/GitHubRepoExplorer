@@ -54,8 +54,8 @@ SearchBox.propTypes = {
   defaultValue: PropTypes.string,
   onChange: PropTypes.func,
   onClear: PropTypes.func,
-  startIcon: PropTypes.element,
-  endIcon: PropTypes.element,
+  starticon: PropTypes.element,
+  endicon: PropTypes.element,
 };
 
 SearchBox.defaultProps = {
