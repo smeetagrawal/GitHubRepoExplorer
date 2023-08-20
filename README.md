@@ -34,3 +34,4 @@
 - I have written test cases for testing the Card component and the SearchBox component.
 - Both the test cases are present under `src\components\__tests__` location.
 - To run the test case, run this command - `npm run test`
+- Then select option `a` which will run all the test cases.
